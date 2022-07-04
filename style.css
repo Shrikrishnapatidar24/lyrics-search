@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+    height: 100%; 
+    overflow: hidden;
+}
+
+body{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    height:100%;
+    overflow-y: scroll;
+}
+
+main{
+    min-height: 85vh;
+}
+
+.form-control{
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-previous{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-brand img{
+    width: 20%;
+    margin-right: 10px;
+}
+
+#search-field{
+    background-color: rgba(143, 186, 255, 0.192);
+    outline: none;
+}
+
+#search-field::placeholder{
+    color: #fff;
+}
+
+#search-field:focus{
+    background-color: #fff;
+    outline: none;
+}
+
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.blue-btn{
+    background-image: linear-gradient(45deg, rgb(66, 131, 175), rgb(26, 77, 158));
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    border-color: transparent !important;
+}
+
+.blue-btn:hover, .blue-btn:focus, .blue-btn:active{
+    background-color: rgb(55, 101, 209);
+    border-color: transparent !important;
+    color: #fff;
+}
+
+.single-result{
+    background: rgba(70, 127, 219, 0.192);
+    border-radius: 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+.single-result:hover{
+    background: rgba(102, 160, 253, 0.192);
+}
+
+#song-container img{
+    border-radius: 10px;
+}
+
+#song-container audio{
+    display: block;
+}
+
+.lyrics-container{
+    background: rgba(70, 127, 219, 0.192);
+    border-radius: 15px;
+    width: 50%;
+}
